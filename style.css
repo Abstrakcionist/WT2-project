@@ -1,0 +1,134 @@
+* {
+    font-family: 'Geologica', 'Lato', 'Open Sans', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(5, 1, 10);
+    color: rgb(210, 199, 238);
+    font-size: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.shell {
+    min-height: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+
+.head_section {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.head_section a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    transition: all 0.2s ease-in-out;
+}
+
+.head_section a:hover, footer a:hover {
+    color: rgb(255, 255, 255);
+}
+
+.voffset100 {
+    min-height: 100px;
+}
+
+main {
+    margin-right: auto;
+    margin-left: auto;
+    width: max(1200px, 70%);
+    justify-content: center;
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+q {
+    display: block;
+    font-style: italic;
+}
+
+q::before {
+    content: '«';
+}
+
+q::after {
+    content: '»';
+}
+
+footer {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 10px 15px;
+}
+
+footer q {
+    color: rgb(119, 110, 143);
+    font-size: 1.5em;
+    padding-bottom: 0.4em;
+    padding-top: 0.4em;
+}
+
+footer a {
+    display: block;
+    color: inherit;
+    transition: all 0.2s ease-in-out;
+}
+
+.diogenes{
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.diogenes_text{
+    position: absolute;
+    top: 150px;
+}
+
+h1{
+    font-size: 65px;
+}
+
+.cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
+    grid-row-gap: 2vh;
+    
+}
+
+.card{
+    border: 1px solid white;
+    border-radius: 3px;
+    border: 1px solid white;
+    border-radius: 3px;
+    transition-duration: 0.3s;
+}
+
+.tasks_image{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.card:hover{
+    transform: scale(105%);
+}
