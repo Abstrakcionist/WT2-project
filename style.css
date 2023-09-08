@@ -140,7 +140,7 @@ h1{
 }
 
 button {
-    width: 100%;
+    max-width: 250px;
     margin-bottom: 20px;
     padding: 15px 25px;
     font-size: 24px;
@@ -160,4 +160,31 @@ button:active {
   background-color: rgb(210, 199, 238);
   box-shadow: 0 0px rgb(158, 129, 233);
   transform: translateY(4px);
+}
+
+.task3{
+    height: 450px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+progress{
+    height: 50px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 30px;
+    background-color: #f3f3f3;
+    position: relative;
+}
+
+.progress-bar-inner {
+    height: 100%;
+    width: 0;
+    background-color: purple;
+    position: absolute;
 }
