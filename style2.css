@@ -47,7 +47,7 @@ header {
 }
 
 main {
-    
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     width: max(1200px, 70%);
@@ -189,19 +189,3 @@ progress{
     position: absolute;
 }
 
-.cookie{
-    position: fixed;
-    left: 0; bottom: 0;
-    background-color: purple;
-    width: 100vw;
-    height: 60px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-#completed{
-    position: fixed;
-    bottom: 0;
-    right: 20px;
-}
