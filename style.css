@@ -47,6 +47,7 @@ header {
 }
 
 main {
+    display: flex;
     margin-right: auto;
     margin-left: auto;
     width: max(1200px, 70%);
@@ -116,9 +117,7 @@ h1{
 }
 
 .card{
-    border: 1px solid white;
-    border-radius: 3px;
-    border: 1px solid white;
+    border: 3px solid rgb(210, 199, 238);
     border-radius: 3px;
     transition-duration: 0.3s;
 }
@@ -131,4 +130,34 @@ h1{
 
 .card:hover{
     transform: scale(105%);
+}
+
+.task2{
+    width: 300px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+button {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: black;
+    background-color: rgb(210, 199, 238);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px rgb(158, 129, 233);
+}
+
+button:hover {background-color: rgb(210, 199, 238)}
+
+button:active {
+  background-color: rgb(210, 199, 238);
+  box-shadow: 0 0px rgb(158, 129, 233);
+  transform: translateY(4px);
 }
