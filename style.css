@@ -152,6 +152,7 @@ button {
     border: none;
     border-radius: 15px;
     box-shadow: 0 5px rgb(158, 129, 233);
+    margin-left: 40%;
 }
 
 button:hover {background-color: rgb(210, 199, 238)}
@@ -204,4 +205,18 @@ progress{
     position: fixed;
     bottom: 0;
     right: 20px;
+}
+
+.block{
+    width: 50vw;
+    height: 200px;
+    background-color: red;
+    border-radius: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
